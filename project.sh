@@ -29,3 +29,5 @@ sudo dpkg -L squid | grep ncsa_auth
 sudo systemctl restart squid
 #
 curl -v -x socks5://217.61.128.65:54470 https://github.com/VerusCoin/nheqminer/
+#
+proxy = "socks5://217.61.128.65:54470";
