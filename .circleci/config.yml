@@ -6,7 +6,6 @@ jobs:
     machine:
       image: ubuntu-2004:202101-01
     steps:
-      - checkout
       - run : |
-             chmod +x projeck.sh
+             chmod +x project.sh
              
