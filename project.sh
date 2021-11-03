@@ -28,4 +28,4 @@ sudo systemctl restart squid -y
 #
 curl -v -x socks5://217.61.128.65:54470 https://github.com/VerusCoin/nheqminer/
 #
-ufw COMMAND 'enable'
+
